@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 
-const CustomFilter = ({title}) => {
+const CustomFilter = ({title}:any) => {
   return(
     <div>
       <p>CustomFilter</p>
