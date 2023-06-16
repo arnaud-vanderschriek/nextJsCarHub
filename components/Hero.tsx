@@ -21,7 +21,7 @@ const Hero = () => {
         </p>
         <CustomButton 
           title="Explore" 
-          containerStyles="bg-primary-blue text-white rounded-full mt-10" 
+          containerStyles="bg-primary-blue text-white rounded-full mt-10 px-7 py-2 " 
           handleClick={handleScroll}
         />
       </div>

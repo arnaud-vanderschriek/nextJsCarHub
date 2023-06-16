@@ -54,7 +54,7 @@ const CarCard = ({ car }:CarCardProps) => {
             </p>
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
-            <Image src="/gaz.svg" width={20} height={20} alt="gaz" /> 
+            <Image src="/gas.svg" width={20} height={20} alt="gaz" /> 
             <p className="car-card__icon-text">
               { city_mpg } MPG
             </p>
@@ -63,7 +63,7 @@ const CarCard = ({ car }:CarCardProps) => {
         <div className="car-card__btn-container">
           <CustomButton 
             title="View More" 
-            containerStyles="w-full py-[16px] rounded-full bg-primary-blue" 
+            containerStyles="w-full py-[16px] rounded-full bg-primary-blue px-7 py-3 flex items-center" 
             textStyles="text-white text-[14px] leading-[17px] font-bold"
             rightIcon="/right-arrow.svg"
             handleClick={( ) => setIsOpen(true)}
